@@ -1,0 +1,173 @@
+html {
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+}
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.556); /* цвет дорожки */
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.567);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+}
+
+/* ========================= */
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(62, 62, 62);
+}
+
+.logo {
+    margin: 0 15px 0 15px;
+    transition: all .3s;
+}
+
+.logo:hover {
+    transform: scale(1.12);
+}
+
+header p {
+    font-weight: 700;
+    font-size: 21px;
+    color: #fff;
+}
+
+/* ========================= */
+
+main {
+    height: 100%;
+    /* width: 100%; */
+    background: url('../img/background.jpg') no-repeat center;
+    /* position: fixed; */
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.303);
+    backdrop-filter: blur(8px);
+    /* display: flex; */
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.blog {
+    height: 600px;
+    width: 1100px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    /* display: flex; */
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox__input {
+    height: 50px;
+    width: 300px;
+    background: #000;
+    color: #fff;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 21px;
+    padding: 0 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.inputBox__input:last-child {
+    margin-right: 0;
+}
+
+.settingButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.settingButtons__btn {
+    height: 50px;
+    width: 300px;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: #0000005c;
+    font-weight: 500;
+    font-size: 21px;
+    transition: all .3s;
+}
+
+.settingButtons__btn:active {
+    background: #000000a5;
+}
+
+.btn:hover {
+    transform: scale(1.12);
+}
+
+.settingButtons__btn:last-child {
+    margin-right: 0;
+}
+
+.resultBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.resultBtn__btn {
+    height: 50px;
+    width: 300px;
+    border-radius: 16px;
+    margin-top: 50px;
+    background-color: #3afc335c;
+    font-weight: 500;
+    font-size: 21px;
+    transition: all .3s;
+}
+
+.resultBtn__btn:active {
+    background: rgba(0, 128, 0, 0.673);
+}
+
+.resultBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.resultBox__background {
+    margin-top: 100px;
+    height: 150px;
+    width: 300px;
+    border-radius: 16px;
+    background: #0000005c;
+}
+
+.resultBox__background-item {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.resultBox__background-item:last-child {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/* ========================= */
+
+footer {
+    height: 150px;
+    width: 100%;
+    background: #000000;
+}

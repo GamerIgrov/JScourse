@@ -1,0 +1,6 @@
+Gilroy-Bold
+Gilroy-Medium
+Gilroy-Regular
+Gilroy-SemiBold
+Semi-Bold
+Regular
